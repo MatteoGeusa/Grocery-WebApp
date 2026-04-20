@@ -1,34 +1,34 @@
+# Shopping List Web App
 
-# Lista della Spesa
+This is a web application for managing a shopping list. It allows users to add items to the list, specifying a category for each item. Items can be added manually or automatically, with the system able to detect the category based on the item's name. Users can check off list items and remove them. Additionally, it is possible to clear the entire list at once.
 
-Questa è un'applicazione web per gestire una lista della spesa. Consente agli utenti di aggiungere elementi alla lista, indicando una categoria per ciascun elemento. Gli elementi possono essere aggiunti manualmente o automaticamente con la possibilità di rilevare la categoria in base al nome dell'elemento. Gli utenti possono controllare gli elementi della lista e rimuoverli. Inoltre, è possibile cancellare l'intera lista.
+## Main Features
+- Add items to the shopping list.
+- Assign categories to items, either manually or automatically.
+- Toggle item status (check/uncheck as completed).
+- Remove individual items from the list.
+- Clear the entire list.
 
-## Funzionalità Principali
-- Aggiunta di elementi alla lista della spesa.
-- Assegnazione di una categoria agli elementi aggiunti  manualmente o automaticamente.
-- Controllo degli elementi della lista (selezionare/deselezionare).
-- Rimozione degli elementi singoli dalla lista.
-- Cancella l'intera lista.
-## Istruzioni per l'Utilizzo
-- Aggiunta di Elementi: Inserire il nome dell'elemento nella casella di testo "Aggiungi un elemento..." e selezionare la categoria corrispondente dall'elenco a discesa.
-- Aggiunta Automatica: Gli elementi possono essere aggiunti automaticamente, inserendo una lista separata da virgole di elementi nella casella di testo e selezionando "Automatico" dalla categoria.
-- Controllo degli Elementi: Fare clic sul checkbox accanto a ciascun elemento per contrassegnarlo come completato.
-- Rimozione degli Elementi: Fare clic sul pulsante "Rimuovi" accanto a ciascun elemento per rimuoverlo dalla lista.
-- Cancellazione dell'intera Lista: Fare clic sul pulsante "Cancella Lista" per eliminare tutti gli elementi della lista.
-## Sviluppo
-L'applicazione è sviluppata utilizzando HTML, CSS e JavaScript. Il codice JavaScript gestisce le interazioni degli utenti, l'aggiunta, la rimozione e il salvataggio degli elementi della lista nella memoria locale del browser.
+## How to Use
+- **Adding Items**: Enter the item name in the "Add an item..." input field and select the corresponding category from the dropdown menu.
+- **Automatic Categorization**: Items can be added automatically by entering a comma-separated list in the input field and selecting "Automatic" from the category list.
+- **Checking Items**: Click the checkbox next to each item to mark it as completed.
+- **Removing Items**: Click the "Remove" button next to any item to delete it from the list.
+- **Clearing the List**: Click the "Clear List" button to delete all items at once.
 
-## Contribuire
-Per contribuire a migliorare questa applicazione, seguire questi passaggi:
+## Development
+The application is built using HTML, CSS, and JavaScript. The JavaScript code handles user interactions, adding and removing items, and saving the list data to the browser's Local Storage.
 
-- Fork il repository su GitHub.
-- Clonare il repository forkato sul proprio computer.
-- Apportare le modifiche desiderate.
-- Eseguire i test per assicurarsi che le modifiche non abbiano introdotto errori.
-- Effettuare il commit delle modifiche e pushare sul repository forkato.
-- Creare una pull request per proporre le modifiche al repository principale.
+## Contributing
+To contribute to improving this application, please follow these steps:
+
+- Fork the repository on GitHub.
+- Clone the forked repository to your local machine.
+- Make your desired changes.
+- Run tests to ensure your changes haven't introduced errors.
+- Commit your changes and push them to your fork.
+- Create a pull request to propose your changes to the main repository.
 
 ## License
 
-Licenza
-Questo progetto è distribuito con la licenza [MIT](https://github.com/MatteoGeusa-Dev/Web-App-Lista-della-spesa/blob/main/LICENSE)
+This project is licensed under the [MIT License](https://github.com/MatteoGeusa-Dev/Web-App-Lista-della-spesa/blob/main/LICENSE).
